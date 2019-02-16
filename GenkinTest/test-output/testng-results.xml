@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14845" started-at="2019-02-16T06:31:16Z" finished-at="2019-02-16T06:31:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14845" started-at="2019-02-16T06:31:16Z" finished-at="2019-02-16T06:31:30Z">
+      <class name="com.jbk.Users">
+        <test-method status="PASS" signature="users()[pri:6, instance:com.jbk.Users@1caeb3e]" name="users" duration-ms="650" started-at="2019-02-16T12:01:30Z" finished-at="2019-02-16T12:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- users -->
+      </class> <!-- com.jbk.Users -->
+      <class name="com.jbk.LoginTestTest">
+        <test-method status="PASS" signature="setUpEnv()[pri:0, instance:com.jbk.LoginTestTest@a3ffec]" name="setUpEnv" is-config="true" duration-ms="10657" started-at="2019-02-16T12:01:16Z" finished-at="2019-02-16T12:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnv -->
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.jbk.LoginTestTest@a3ffec]" name="checkTitle" duration-ms="46" started-at="2019-02-16T12:01:26Z" finished-at="2019-02-16T12:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="invalidEmailError()[pri:2, instance:com.jbk.LoginTestTest@a3ffec]" name="invalidEmailError" duration-ms="1441" started-at="2019-02-16T12:01:26Z" finished-at="2019-02-16T12:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailError -->
+        <test-method status="PASS" signature="invalidPasswordError()[pri:3, instance:com.jbk.LoginTestTest@a3ffec]" name="invalidPasswordError" duration-ms="272" started-at="2019-02-16T12:01:28Z" finished-at="2019-02-16T12:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordError -->
+        <test-method status="PASS" signature="blankEmaiPasswordError()[pri:4, instance:com.jbk.LoginTestTest@a3ffec]" name="blankEmaiPasswordError" duration-ms="243" started-at="2019-02-16T12:01:28Z" finished-at="2019-02-16T12:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankEmaiPasswordError -->
+        <test-method status="PASS" signature="Dashboard()[pri:5, instance:com.jbk.LoginTestTest@a3ffec]" name="Dashboard" duration-ms="1416" started-at="2019-02-16T12:01:28Z" finished-at="2019-02-16T12:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+      </class> <!-- com.jbk.LoginTestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
